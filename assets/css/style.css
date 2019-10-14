@@ -154,8 +154,9 @@ h1, h2, h3, h4, h5, h6 {
 .menu__dish {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:  space-around;
   margin-bottom: 80px;
+  min-height: 408px;
 }
 
 .menu__dish_item {
