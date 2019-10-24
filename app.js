@@ -2,7 +2,7 @@ $(function() {
 
   let header = $("#header");
   let intro = $("#intro");
-  let introH = intro.height();
+  let introH = header.height();
   let scrollPos = $(window).scrollTop();
 
   $(window).on("scroll load resize", function() {
